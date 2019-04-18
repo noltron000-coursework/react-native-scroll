@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { 
 	StyleSheet,
 	ScrollView,
@@ -6,7 +6,7 @@ import {
 	View,
 	Text,
 	TextInput 
-} from 'react-native';
+} from 'react-native'
 
 export default class App extends React.Component {
 	render() {
@@ -26,7 +26,7 @@ export default class App extends React.Component {
 					</View>
 				</KeyboardAvoidingView>
 			</ScrollView>
-		);
+		)
 	}
 }
 
@@ -41,4 +41,4 @@ const styles = StyleSheet.create({
 	placeholder: {
 		backgroundColor: '#f0f',
 	}
-});
+})
